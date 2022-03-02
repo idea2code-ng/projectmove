@@ -1,0 +1,40 @@
+{
+       "name": "project_move",
+       "version": "1.0.0",
+       "description": "",
+       "main": "src/index.js",
+       "dependencies": {
+              "axios": "^0.26.0",
+              "bcrypt": "^5.0.1",
+              "dotenv": "^10.0.0",
+              "express": "^4.17.2",
+              "express-handlebars": "^6.0.2",
+              "express-validator": "^6.14.0",
+              "facebook-client": "^1.6.1",
+              "fs": "0.0.1-security",
+              "jsonwebtoken": "^8.5.1",
+              "luxon": "^2.3.0",
+              "moment": "^2.29.1",
+              "morgan": "^1.10.0",
+              "multer": "^1.4.4",
+              "mysql2": "^2.3.3",
+              "node-navigator": "^1.0.1",
+              "nodemailer": "^6.7.2",
+              "oauth": "^0.9.15",
+              "passport": "^0.5.2",
+              "passport-jwt": "^4.0.0",
+              "sequelize": "^7.0.0-alpha.2",
+              "sequelize-cli": "^6.3.0",
+              "winston": "^3.6.0"
+       },
+       "devDependencies": {
+              "nodemon": "^2.0.15"
+       },
+       "scripts": {
+              "start": "node src/index.js",
+              "dev": "nodemon"
+       },
+       "keywords": [],
+       "author": "",
+       "license": "ISC"
+}
